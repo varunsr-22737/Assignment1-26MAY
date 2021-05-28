@@ -42,9 +42,26 @@ body {
 .card-flex-container {
   display: flex;
   justify-content: space-evenly;
-  padding: 1em 0 1em 0;
-  margin: 1em 0 1em 0;
+  padding: 4em;
+  margin: 4em;
   border: 4px solid #FFDF00;
+}
+
+.card {
+  background: #fff3f3;
+  margin: 2em;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.card-text {
+  padding: 1em;
+  margin: 1em;
 }
 
 .item {
