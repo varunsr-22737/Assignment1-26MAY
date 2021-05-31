@@ -48,9 +48,7 @@ body {
 }
 
 .card {
-  background: #fff3f3;
   margin: 2em;
-  border-radius: 0.5em;
   text-align: center;
 }
 
@@ -60,19 +58,13 @@ body {
 }
 
 .card-text {
+  color: #777777;
   padding: 1em;
   margin: 1em;
 }
 
 .card-image {
   border-radius: 1em;
-}
-
-.item {
-  display: flex;
-  align-items: center;
-  padding: 1em;
-  margin: 0.5em;
 }
 
 .hero {
@@ -88,6 +80,34 @@ body {
   font-size: 3em;
 }
 
+.item {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin: 0.5em;
+}
+
+.img-text {
+  text-align: left;
+}
+
+.img-text > img{
+  width: 98%;
+}
+
+.img-text > h5 {
+  /* border: 1px solid red; */
+  margin: 0%;
+  padding: 1em 0 1em 0;  /* t r b l */
+}
+
+.img-text > p {
+  /* border: 1px solid red; */
+  font-weight: lighter;
+  font-size: 1.2em;
+  padding: 0%;
+  margin: 0%;
+}
 
 /* .hero-button {
   text-decoration: none;
@@ -119,6 +139,11 @@ body {
   text-align: center;
   font-weight: lighter;
   font-size: 1.5em;
+}
+
+.text-card {
+  background: #fff3f3;
+  border-radius: 0.5em;
 }
 
 .right {
