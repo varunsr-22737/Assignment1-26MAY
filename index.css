@@ -64,6 +64,10 @@ body {
   margin: 1em;
 }
 
+.card-image {
+  border-radius: 1em;
+}
+
 .item {
   display: flex;
   align-items: center;
