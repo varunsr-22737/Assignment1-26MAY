@@ -24,9 +24,14 @@ body {
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+
 .button:hover {
   background-color: rgba(255, 255, 255, 0.5);
   color: rgb(66, 66, 233);
+}
+
+.banner-text {
+  color: #fff ;
 }
 
 .container {
@@ -66,6 +71,11 @@ body {
 .card-image {
   border-radius: 1em;
 }
+
+.clipper {
+  clip-path: inset(15% 0% 15% 0% round 1em);
+}
+
 
 .hero {
   position: absolute;
@@ -118,12 +128,50 @@ body {
   color: rgba(0, 0, 128, 0.5);
 } */
 
+.logo {
+  align-self: flex-start;
+  border: 2px solid rgb(190, 190, 86);
+  display: flex;
+  align-items: center;
+  padding-left: 2.5em;
+}
+
+.logo>img {
+  width: 6.5rem;
+  height: 20%;
+}
+
 .main-content {
   text-align: center;
   color: #ffffff;
   font-weight: bolder;
   font-size: 4.5em;
   margin-bottom: 0.25em;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(73, 73, 40);
+}
+
+.navBar {
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  padding-right: 2.5em;
+}
+
+.right:hover {
+  opacity: 0.5;
+}
+
+.right>a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .sub-content {
@@ -147,40 +195,10 @@ body {
   border-radius: 0.5em;
 }
 
-.right {
-  padding-right: 2.5em;
+.tint {
+  background: black;
 }
 
-.right:hover {
+.tint-enabler {
   opacity: 0.5;
-}
-
-.right>a {
-  text-decoration: none;
-  color: aliceblue;
-}
-
-.logo {
-  align-self: flex-start;
-  border: 2px solid rgb(190, 190, 86);
-  display: flex;
-  align-items: center;
-  padding-left: 2.5em;
-}
-
-.logo>img {
-  width: 6.5rem;
-  height: 20%;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-  border: 2px solid rgb(73, 73, 40);
-}
-
-.navBar {
-  border: 2px solid yellow;
-  display: flex;
-  justify-content: space-between;
 }
