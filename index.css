@@ -219,6 +219,17 @@ body {
   color: aliceblue;
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links > a {
+  text-decoration: none;
+  color: #f44335;
+  padding: .5em;
+}
+
 .sub-content {
   text-align: center;
   color: #fff;
