@@ -1,7 +1,4 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
-.about {
-  border: 1px solid red;
-}
 
 .about > p {
   font-weight: lighter;
